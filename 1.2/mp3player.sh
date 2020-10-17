@@ -18,6 +18,7 @@ read -p "> " jwb
 
 if [ $jwb = 1 ] 
 then
+termux-setup-storage
 apt update && apt upgrade -y
 pkg install mpv
 cd /sdcard/
