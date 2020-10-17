@@ -25,6 +25,11 @@ mkdir mp3termux
 cd mp3termux
 echo
 echo "SUCCESS"
+cd
+cd EnderZETScript
+cd 1.2
+sleep 5
+sh mp3player.sh
 fi
 if [ $jwb = 2 ]
 then
