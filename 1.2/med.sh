@@ -23,7 +23,7 @@ pkg install ffmpeg -y
 termux-setup-storage
 echo
 mkdir /sdcard/youtubedownloader/
-echo "You Can Run YTVideoDownloader With Number 3"
+echo "You Can Run YTVideoDownloader With Number 4"
 cd
 cd EnderZETScript
 cd 1.2
