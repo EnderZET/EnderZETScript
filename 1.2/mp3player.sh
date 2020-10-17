@@ -29,7 +29,7 @@ fi
 if [ $jwb = 2 ]
 then
 cd /sdcard/
-cd mp3termux
+cd youtubedownloader
 mpv * ls
 fi
 if [ $jwb = 3 ]
