@@ -46,7 +46,7 @@ read -p "NameOfFile > " nameoffile
 read -p "NewNameForConvtedFile > " newname
 ffmpeg -i $nameoffile.mp4 -f mp3 -ab 192000 $newname.mp3
 echo
-echo "You Can Search The File On Youtubedownloader File And Format MP3"
+echo "You Can Search The File On Youtubedownloader Folder And Format MP3"
 echo
 cd
 cd EnderZETScript
