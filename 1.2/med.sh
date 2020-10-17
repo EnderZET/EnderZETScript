@@ -24,6 +24,9 @@ termux-setup-storage
 echo
 mkdir /sdcard/youtubedownloader/
 echo "You Can Run YTVideoDownloader With Number 3"
+cd
+cd EnderZETScript
+cd 1.2
 sleep 5
 sh med.sh
 fi
@@ -45,6 +48,9 @@ ffmpeg -i $nameoffile.mp4 -f mp3 -ab 192000 $newname.mp3
 echo
 echo "You Can Search The File On Youtubedownloader File And Format MP3"
 echo
+cd
+cd EnderZETScript
+cd 1.2
 sleep 5
 sh med.sh
 fi
@@ -59,6 +65,9 @@ youtubedr -d /sdcard/youtubedownloader/ $ytlink
 echo
 #echo "You Can Search Downloaded Video On Your Internal Storage On Youtubedownloader Folder"
 echo
+cd
+cd EnderZETScript
+cd 1.2
 sleep 10
 sh med.sh
 fi
