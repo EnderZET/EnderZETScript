@@ -3,7 +3,7 @@
 clear
 
 cowsay -f eyes "Welcome To MCScript" | lolcat
-toilet -f standard "MCScript" -F gay
+toilet -f big "MCScript" -F gay
 echo
 echo "By McScript"
 echo
