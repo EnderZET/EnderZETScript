@@ -2,8 +2,8 @@
 
 clear
 
-cowsay -f eyes "Welcome To MCScript" | lolcat
-toilet -f big "MCScript" -F gay
+cowsay -f eyes Welcome To MCScript | lolcat
+toilet -f big -F gay MCScript
 echo
 echo "By McScript"
 echo
