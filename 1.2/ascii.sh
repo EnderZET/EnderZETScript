@@ -1,4 +1,5 @@
 #!system/bin/sh
+clear
 
 echo
 toilet -f big -F gay ASCii
@@ -39,11 +40,11 @@ cd /sdcard/jpg2ascii/
 sleep 3
 echo "Go To File Manager, Search img2ascii And Give JPG File"
 sleep 10
-read -p "ImageFile > " ans2
+read -p "NameOfImageFile > " ans2
 sleep 1
 jp2a $ans2.jpg
 echo
-read -p "00) Exit" ans3
+read -p "00) Exit " ans3
 if [ $ans3 = "00" ]
 then
 sh ascii.sh
