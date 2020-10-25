@@ -29,7 +29,7 @@ echo
 jp2a $imgfile.jpg
 echo
 echo
-read -p "00. To Exit" exi
+read -p "00. To Exit > " exi
 fi
 if [ $exi = "00" ]
 then
@@ -37,7 +37,6 @@ cd
 cd EnderZETScript
 cd 1.2
 sh ascii.sh
-fi
 fi
 if [ $jawaban = 3 ]
 then
