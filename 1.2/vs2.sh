@@ -5,20 +5,26 @@ clear
 cowsay -f eyes Welcome To MCScript | lolcat
 toilet -f big -F gay MCScript
 echo
-echo "By McScript"
+echo "________________________________________________________________________________________" 
 echo
-echo "Please Select 1/2"
+echo "========================================================================================"
+echo "                                   | Please Select |"
+echo "========================================================================================"
+echo "________________________________________________________________________________________"
 echo
-echo "1) Stabilize The Ping"
-echo "2) Edit This Script"
-echo "3) Media Tools"
-echo "4) PHP WebServer"
-echo "5) ASCII Generator (BETA)"
-echo "6) Info"
-echo "7) Exit"
+echo "------------------------------"
+echo "                             |"
+echo " 1]> Stabilize The Ping      |"
+echo " 2]> Edit This Script        |"
+echo " 3]> Media Tools             |"
+echo " 4]> PHP WebServer           |"
+echo " 5]> ASCII Generator (BETA)  |"
+echo " 6]> Info                    |"
+echo " 7]> Exit                    |"
+echo "                             |"
+echo "------------------------------"
 echo
-read -p "> " jwb
-
+read -p "-> " jwb
 if [ $jwb = 1 ]
 then
 clear
