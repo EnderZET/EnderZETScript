@@ -22,6 +22,8 @@ cd
 echo
 echo "Number 3 For Run ASCII-Gen"
 echo
+cd
+cd EnderZETScript/1.2/
 sleep 1
 sh ascii.sh
 fi
@@ -30,6 +32,8 @@ then
 cd
 pkg remove jp2a
 rm -rf jp2a
+cd EnderZETScript
+cd 1.2
 sleep 1
 sh ascii.sh
 fi
@@ -47,6 +51,9 @@ echo
 read -p "00) Exit " ans3
 if [ $ans3 = "00" ]
 then
+cd 
+cd EnderZETScript
+cd 1.2
 sh ascii.sh
 fi
 fi
